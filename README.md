@@ -16,4 +16,7 @@ La gestion des machines AVD avec de nouvelles images permet d'éviter une dette 
 Utiliser Intune si l'on veut une gestion continue et éviter de recréer les VMs fréquemment.<br>
 Utiliser la création de nouvelles images si l'on veut garantir des performances stables et minimiser une dette technique sur le long terme.<br>
 Il est possible de combiner les deux approches pour bénéficier des avantages de chacune. Utiliser Intune pour les petits changements et faire des nouvelles images tous les 3-6 mois pour une base propre testée et performante.<br>
-C'est souvent cette option qui est recommandée et utilisée pour les environnements de production.
+C'est souvent cette option qui est recommandée et utilisée pour les environnements de production.<br>
+
+
+## "Host-pool-management-approaches"
