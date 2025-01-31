@@ -12,13 +12,16 @@ L'intégration d’Azure Virtual Desktop (AVD) avec Microsoft Intune permet de g
 La gestion des mises à jour des machines AVD avec de nouvelles images permet d'éviter une dette technique (mise à jour des applications) et de garantir des performances stables. Cela nécessite de recréer régulièrement des images de VMs (Session hosts AVD) pour appliquer les mises à jour et les applications. Cela peut être fait avec des outils comme **"Azure Image Builder ou Packer (HashiCorp)"** et des chaînes de déploiement tel que **"Azure DevOps/ GitHub / ..."**.<br>
 Avec cette approche, on est obligé de gérer les mises à jour des sessions hosts soit en **créant un nouveau "Host pool"** avec les nouvelles images ou soit **en ajoutant des nouveaux "Session host" à un "Host pool"** avec les nouvelles images.<br>
 **Création d'un nouveau "Host pool"**:<br>
-- rétion d'une noCuvelle image en la stockant dans **"Azure Compute Gallery"**
+- Crétion d'une nouvelle image en la stockant dans **"Azure Compute Gallery"**
 - Redéploiement d'un "Host pool" avec la nouvelle image
 - Nettoyage de l'Entra ID ou de l'Acive Directory ( comptes machine)
 - Re création d'**Application group & "Assignments"**
 
 **En ajoutant des nouveaux "Session host" à un "Host pool"**:<br>
-- 
+- Crétion d'une nouvelle image en la stockant dans **"Azure Compute Gallery"**
+- Génération d'une nouvelle clé au niveau du **"Host pool"** pour l'ajout des nouveaux **Session host**
+- Déploiement des nouveaux **Session host**
+- jouer avec le "Drain mode"
 
 
 ## Avec la combinaison des deux
