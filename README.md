@@ -33,4 +33,4 @@ C'est souvent cette option qui est recommandée et utilisée pour les environnem
 
 
 ## "Host-pool-management-approaches"
-Dans le service **"Azure Virtual Desktop"**, les **"host pool"** sont des regroupements logiques de machines virtuelles **"Session hosts"** qui ont la même configuration et servent les mêmes "Workloads". Microsoft propose maintenant une nouvelle 
+Microsoft propose maintenant une nouvelle fonctionnalité dans **"Azure Virtual Desktop"** pour le déploiement des "Host pool" et surtout pour la gestion du cycle de vie des **Session host**
