@@ -28,7 +28,7 @@ Avec cette approche, on est obligé de gérer les mises à jour des sessions hos
 ## Avec la combinaison des deux
 Utiliser Intune si l'on veut une gestion continue et éviter de recréer les VMs fréquemment.<br>
 Utiliser la création de nouvelles images si l'on veut garantir des performances stables et minimiser une dette technique sur le long terme.<br>
-Il est possible de combiner les deux approches pour bénéficier des avantages de chacune. Utiliser Intune pour les petits changements et faire des nouvelles images tous les 3-6 mois pour une base propre testée et performante.<br>
+Il est possible de combiner les deux approches pour bénéficier des avantages de chacune. Utiliser Intune pour les petits changements et faire des nouvelles **images tous les 3-6 mois** pour une base propre testée et performante.<br>
 C'est souvent cette option qui est recommandée et utilisée pour les environnements de production.<br>
 
 
