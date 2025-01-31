@@ -14,14 +14,15 @@ Avec cette approche, on est obligé de gérer les mises à jour des sessions hos
 **Création d'un nouveau "Host pool"**:<br>
 - Crétion d'une nouvelle image en la stockant dans **"Azure Compute Gallery"**
 - Redéploiement d'un "Host pool" avec la nouvelle image
-- Nettoyage de l'Entra ID ou de l'Acive Directory ( comptes machine)
+- Nettoyage de l'Entra ID ou de l'Acive Directory (comptes machine)
 - Re création d'**Application group & "Assignments"**
 
 **En ajoutant des nouveaux "Session host" à un "Host pool"**:<br>
 - Crétion d'une nouvelle image en la stockant dans **"Azure Compute Gallery"**
 - Génération d'une nouvelle clé au niveau du **"Host pool"** pour l'ajout des nouveaux **Session host**
 - Déploiement des nouveaux **Session host**
-- jouer avec le "Drain mode"
+- Jouer avec le "Drain mode"
+- Une fois les nouveaux **Session host** déployés il faudra nettoyage de l'Entra ID ou de l'Acive Directory (comptes machine)
 
 
 ## Avec la combinaison des deux
