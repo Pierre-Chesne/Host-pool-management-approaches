@@ -15,6 +15,7 @@ Avec cette approche, on est obligé de gérer les mises à jour des sessions hos
 - Crétion d'une nouvelle image en la stockant dans **"Azure Compute Gallery"**
 - Redéploiement d'un "Host pool" avec la nouvelle image
 - Nettoyage de l'Entra ID ou de l'Acive Directory ( comptes machine)
+- Re création d'**Application group & "Assignments"**
 **ajoutant des nouveaux "Session host" à un "Host pool"**:<br>
 
 
