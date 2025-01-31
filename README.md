@@ -1,4 +1,4 @@
-# Host-pool-management-approaches
+# "Host-pool-management-approaches"
 <img width='800' src='./images/img_0-0.png'/><br><br>
 Actuellement pour gérer le cycle de vie des **"Session hosts"** dans un **"Host Pool Azure virtual Desktop (AVD)"**, cela peut se faire avec plusieurs approches:
 - Avec Microsoft Intune
@@ -20,3 +20,5 @@ C'est souvent cette option qui est recommandée et utilisée pour les environnem
 
 
 ## "Host-pool-management-approaches"
+Dans le service **"Azure Virtual Desktop"**, les **"host pool"** sont des regroupements logiques de machines virtuelles **"Session hosts"** qui ont la même configuration et servent les mêmes "Workloads". Vous pouvez choisir l'une des deux approches de gestion des pools d'hôtes suivantes : standard et utilisation d'une configuration d'hôte de session (aperçu). Dans cet article, vous découvrirez chaque approche de gestion et les différences qui existent entre elles afin de vous aider à décider laquelle utiliser.
+
