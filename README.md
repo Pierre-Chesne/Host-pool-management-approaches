@@ -8,7 +8,7 @@ Actuellement pour gérer le cycle de vie des **"hosts"** dans un **"Host Pool Az
 L'intégration d’Azure Virtual Desktop (AVD) avec Microsoft Intune permet de gérer les machines virtuelles (hosts) de manière centralisée, en appliquant des stratégies de sécurité, des mises à jour et des configurations aux VMs. Microsoft Intune permet une gestion centralisée des VMs AVD sans nécessiter une **reconstruction régulière des images de VMs (hosts AVD)**.
 
 ## Avec la création de nouvelles images
-La gestion des machines AVD avec de nouvelles images permet d'éviter la dette technique (mise à jour des applications) et de garantir des performances stables. Cela nécessite de recréer régulièrement des images de VMs (hosts AVD) pour appliquer les mises à jour et les application. Cela peut être fait avec des outils comme **Azure Image Builder ou Packer (HashiCorp)** ou **Azure DevOps**.
+La gestion des machines AVD avec de nouvelles images permet d'éviter une dette technique (mise à jour des applications) et de garantir des performances stables. Cela nécessite de recréer régulièrement des images de VMs (hosts AVD) pour appliquer les mises à jour et les applications. Cela peut être fait avec des outils comme **"Azure Image Builder ou Packer (HashiCorp)"** ou **"Azure DevOps/ GitHub / ..."**.
 
 
 ## Avec la combinaison des deux
