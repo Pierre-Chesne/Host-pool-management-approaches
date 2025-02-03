@@ -60,6 +60,9 @@ Pour l'ajout de "session host", plus besoin de générer une nouvelle "Registrat
 <img width='800' src='./images/img_0-5.png'/><br><br><br>
 
 **Le plus interressant !** la mise à jour des **"session host"**
+Il suffit le lancer l'assitant <br><br>
+<img width='800' src='./images/img_0-6.png'/><br><br>
+
 
 
 
