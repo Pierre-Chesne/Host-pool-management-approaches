@@ -55,7 +55,11 @@ Les prérequis pour déployer cette nouvelle fonctionnalité:<br>
 
 A la fin du déployment, on peut remarquer au niveau du "host pool" deux nouvelles colonnes "Curent Version" et "Target Version" qui correspondent à la version des "session host" au format "timestamp". <br><br>
 <img width='800' src='./images/img_0-4.png'/><br><br>
-Pour les plus curieux, il n'y a plus qu'une extention au niveau "des session host", la "Microsoft.PowerShell.DSC" (Installation des agents AVD & la jonction au domaine AD).  Ne cherchez pas l'extention "JsonADDomainExtension".<br>
+Pour les plus curieux, il n'y a plus qu'une extention au niveau "des session host", la "Microsoft.PowerShell.DSC" (Installation des agents AVD & la jonction au domaine AD).  Ne cherchez pas l'extention "JsonADDomainExtension".<br><br><br>
+Pour l'ajout de "session host", plus besoin de générer une nouvelle "Registration key"<br><br>
+<img width='800' src='./images/img_0-5.png'/><br><br>
+
+
 
 
 
