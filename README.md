@@ -53,7 +53,7 @@ Les prérequis pour déployer cette nouvelle fonctionnalité:<br>
     (Nouveau) On vient renseigner les éléments dans le KeyVault : Login & mot de passe (compte admin local des "session host" et le compte AD ayant les droits de mettre session host dans le domaine AD)<br><br>
     <img width='800' src='./images/img_0-3.png'/><br><br>
 
-A la fin du déployment, on peut remarquer au niveau du "host pool" deux nouvelles colonnes "Curent Version" et "Target Version" qui correspondent à la version des "session host" au format "timestamp"
+A la fin du déployment, on peut remarquer au niveau du "host pool" deux nouvelles colonnes "Curent Version" et "Target Version" qui correspondent à la version des "session host" au format "timestamp" <br><br>
 <img width='800' src='./images/img_0-4-1.png'/><br><br>
 
 
