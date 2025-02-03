@@ -49,6 +49,8 @@ Les prérequis pour déployer cette nouvelle fonctionnalité:<br>
     <img width='800' src='./images/img_0-1.png'/><br><br>
     On choisit l'image (MarketPlace ou une image dans une Gallery)<br><br>
     <img width='800' src='./images/img_0-2.png'/><br><br>
+    Après avoir choisi : le gabarit de la VM - le type de disque - la partie réseau avec le subnet qui peut joindre les contôleurs de domaine ou le domaine Entra Doamon Service<br><br>
+    
 
 
 
