@@ -45,7 +45,7 @@ Les prérequis pour déployer cette nouvelle fonctionnalité:<br>
     - Propriétaire ou contributeur sur le groupe de ressources ou la souscription hébergeant les hôtes de sessions
     
     Pour déployer et gérer le cycle de vie avec cette nouvelle fonctionnalité **"Host pool management approaches"**, c'est très simple <br>
-    Dans l'assitant pour créer un nouveau Host pool, on voit la nouvelle fonctionnalité<br><br>
+    Dans l'assistant pour créer un nouveau Host pool, on voit la nouvelle fonctionnalité<br><br>
     <img width='800' src='./images/img_0-1.png'/><br><br>
     On choisit l'image (MarketPlace ou une image dans une Gallery)<br><br>
     <img width='800' src='./images/img_0-2.png'/><br><br>
@@ -56,8 +56,10 @@ Les prérequis pour déployer cette nouvelle fonctionnalité:<br>
 A la fin du déployment, on peut remarquer au niveau du "host pool" deux nouvelles colonnes "Curent Version" et "Target Version" qui correspondent à la version des "session host" au format "timestamp". <br><br>
 <img width='800' src='./images/img_0-4.png'/><br><br>
 Pour les plus curieux, il n'y a plus qu'une extention au niveau "des session host", la "Microsoft.PowerShell.DSC" (Installation des agents AVD & la jonction au domaine AD).  Ne cherchez pas l'extention "JsonADDomainExtension".<br><br><br>
-Pour l'ajout de "session host", plus besoin de générer une nouvelle "Registration key"<br><br>
-<img width='800' src='./images/img_0-5.png'/><br><br>
+Pour l'ajout de "session host", plus besoin de générer une nouvelle "Registration key", il suffit de cliquer sur "add" et on suit l'assitant<br><br>
+<img width='800' src='./images/img_0-5.png'/><br><br><br>
+
+**Le plus interressant !** la mise à jour des **"session host"**
 
 
 
