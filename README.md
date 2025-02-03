@@ -64,6 +64,13 @@ Il suffit le lancer l'assitant <br><br>
 <img width='800' src='./images/img_0-6.png'/><br><br>
 <img width='800' src='./images/img_0-7.png'/><br><br>
 
+Pour la partie orchestration de la mise à jour des "session host"<br>
+On va venir paramétrer :
+- le lot de "session host" que l'on souhaite mettre à jour en même temps
+- le nombre de "session host" que l'on souhaite garder opérationnel pendant la mise à jour
+
+Ce qui faut savoir avant d'exécuter une mise à jour des "session host", le service prend un "session host", le test ( check l'agent AVD & Si le session host est bien resté dand l'AD) et le service lance le processus de mise à jour<br>
+
 
 
 
