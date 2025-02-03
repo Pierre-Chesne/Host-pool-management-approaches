@@ -81,7 +81,7 @@ Ensuite on selectionne la nouvelle image, éventuellement un nouveau gabarit de 
 
 On définit un horaire pour le déclenchement pour la mise à jour des "session host"<br><br>
 <img width='800' src='./images/img_0-12.png'/><br><br>
-Et pour finir, la notification pour les utilisateurs et ainsi le temp quand ils ont pour sauvegrader leur travail quand ils se feront déconnecter du "session host" pour sa mise à jour.<br><br>
+Et pour finir, la notification pour les utilisateurs et ainsi le temp quand ils ont pour sauvegarder leur travail quand ils se feront déconnecter du "session host" pour sa mise à jour.<br><br>
 <img width='800' src='./images/img_0-14.png'/><br>
 
 
