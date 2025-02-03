@@ -45,7 +45,7 @@ Les prérequis pour déployer cette nouvelle fonctionnalité:<br>
     - Propriétaire ou contributeur sur le groupe de ressources ou la souscription hébergeant les hôtes de sessions
     
     Pour déployer et gérer le cycle de vie avec cette nouvelle fonctionnalité **"Host pool management approaches"**, c'est très simple <br>
-    Dans l'assitant pour créer un nouveau Host pool, on voit la nouvelle fonctionnalité<br>
+    Dans l'assitant pour créer un nouveau Host pool, on voit la nouvelle fonctionnalité<br><br>
     <img width='800' src='./images/img_0-1.png'/><br><br>
 
 
