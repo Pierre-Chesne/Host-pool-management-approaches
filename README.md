@@ -69,7 +69,10 @@ On va venir paramétrer :
 - le lot de "session host" que l'on souhaite mettre à jour en même temps
 - le nombre de "session host" que l'on souhaite garder opérationnel pendant la mise à jour
 
-Ce qui faut savoir, avant d'exécuter une mise à jour des "session host", le service prend un "session host", le test ( check l'agent AVD & si le session host est bien resté dand l'AD) et le service lance le processus de mise à jour<br>
+<img width='800' src='./images/img_0-8.png'/><br><br>
+
+Ce qui faut savoir, avant d'exécuter une mise à jour des "session host", le service prend un "session host", le test ( check l'agent AVD & si le session host est bien resté dand l'AD) et le service lance le processus de mise à jour<br><br>
+
 
 
 
