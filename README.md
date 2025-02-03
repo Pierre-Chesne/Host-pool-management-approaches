@@ -33,7 +33,7 @@ C'est souvent cette option qui est recommandée et utilisée pour les environnem
 
 
 ## "Host-pool-management-approaches"
-Microsoft propose maintenant une nouvelle fonctionnalité dans **"Azure Virtual Desktop"** pour le déploiement des "Host pool" et surtout pour la gestion du cycle de vie des **Session host**. Cette nouvelle fonctionnalité **"Host-pool-management-approaches"** est encore en **preview** et ne fonctionne uniquement dans un environnement **"Domaine Active Directory ou Microsoft Entra Domain Services"**. Egalement, **elle n'est supporté qu'en mode "Pooled" pour "Host pool"**.<br><br>
+Microsoft propose maintenant une nouvelle fonctionnalité dans **"Azure Virtual Desktop"** pour le déploiement des "Host pool" et surtout pour la gestion du cycle de vie des **Session host**. Cette nouvelle fonctionnalité **"Host pool management approaches"** est encore en **preview** et ne fonctionne uniquement dans un environnement **"Domaine Active Directory ou Microsoft Entra Domain Services"**. Egalement, **elle n'est supporté qu'en mode "Pooled" pour "Host pool"**.<br><br>
 Les prérequis pour déployer cette nouvelle fonctionnalité:<br>
 - Active Directory avec Entra Domain Services ou domaine ADDS et des permissions spécifiques sur l’OU ( des "Session host)" dans le cas ADDS
 - Uniquement des systèmes d'exploitation Windows 10/11 en Gen 2
@@ -44,9 +44,9 @@ Les prérequis pour déployer cette nouvelle fonctionnalité:<br>
     - "KeyVault administrator" pour l’administrateur sécurité en charge de gérer les secrets
     - Propriétaire ou contributeur sur le groupe de ressources ou la souscription hébergeant les hôtes de sessions
     
+    Pour déployer et gérer le cycle de vie avec cette nouvelle fonctionnalité **"Host pool management approaches"**, c'est très simple <br>
     
-    
-    
+
 
 
  
