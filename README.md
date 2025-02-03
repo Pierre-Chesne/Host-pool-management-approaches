@@ -77,7 +77,15 @@ Ce qui faut savoir, avant d'exécuter une mise à jour des "session host", le se
 Ensuite on selectionne la nouvelle image, éventuellement un nouveau gabarit de VM et les éléments dans le KeyVault.<br><br>
 <img width='800' src='./images/img_0-9.png'/><br>
 <img width='800' src='./images/img_0-10.png'/><br>
-<img width='800' src='./images/img_0-11.png'/><br>
+<img width='800' src='./images/img_0-11.png'/><br><br><br>
+
+On définit un horaire pour le déclenchement pour la mise à jour des "session host"<br><br>
+<img width='800' src='./images/img_0-12.png'/><br><br>
+Et pour finir, la notification pour les utilisateurs et ainsi le temp quand ils ont pour sauvegrader leur travail quand ils se feront déconnecter du "session host" pour sa mise à jour.<br>
+
+
+
+
 
 
 
