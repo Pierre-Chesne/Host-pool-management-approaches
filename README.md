@@ -71,9 +71,13 @@ On va venir paramétrer :
 
 <img width='800' src='./images/img_0-8.png'/><br><br>
 
-Ce qui faut savoir, avant d'exécuter une mise à jour des "session host", le service prend un "session host", le test ( check l'agent AVD & si le session host est bien resté dand l'AD) et le service lance le processus de mise à jour<br><br>
+Ce qui faut savoir, avant d'exécuter une mise à jour des "session host", le service prend un "session host", le test ( check l'agent AVD & si le session host est bien resté dand l'AD) et le service lance le processus de mise à jour des autres "session host"<br><br>
 
 
+Ensuite on selectionne la nouvelle image, éventuellement un nouveau gabarit de VM et les éléments dans le KeyVault.<br><br>
+<img width='800' src='./images/img_0-9.png'/><br>
+<img width='800' src='./images/img_0-10.png'/><br>
+<img width='800' src='./images/img_0-11.png'/><br>
 
 
 
