@@ -50,7 +50,8 @@ Les prérequis pour déployer cette nouvelle fonctionnalité:<br>
     On choisit l'image (MarketPlace ou une image dans une Gallery)<br><br>
     <img width='800' src='./images/img_0-2.png'/><br><br>
     Après avoir choisi : le gabarit de la VM - le type de disque - la partie réseau avec le subnet qui peut joindre les contôleurs de domaine ou le domaine Entra Domain Service<br><br>
-    (Nouveau)On vient renseigner les éléments dans le KeyVault : Login & mot de passe (compte admin local des "session host" et le compte AD ayant les droits de mettre session host dans le domaine AD)
+    (Nouveau)On vient renseigner les éléments dans le KeyVault : Login & mot de passe (compte admin local des "session host" et le compte AD ayant les droits de mettre session host dans le domaine AD)<br><br>
+    <img width='800' src='./images/img_0-3.png'/><br><br>
 
 
 
