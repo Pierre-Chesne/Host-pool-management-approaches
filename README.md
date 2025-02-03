@@ -47,6 +47,8 @@ Les prérequis pour déployer cette nouvelle fonctionnalité:<br>
     Pour déployer et gérer le cycle de vie avec cette nouvelle fonctionnalité **"Host pool management approaches"**, c'est très simple <br>
     Dans l'assitant pour créer un nouveau Host pool, on voit la nouvelle fonctionnalité<br><br>
     <img width='800' src='./images/img_0-1.png'/><br><br>
+    On choisit l'image (MarketPlace ou une image dans une Gallery)<br><br>
+    <img width='800' src='./images/img_0-2.png'/><br><br>
 
 
 
