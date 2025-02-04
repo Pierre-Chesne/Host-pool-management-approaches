@@ -101,6 +101,8 @@ Test du premier "session host" - Drain mode "on"<br>
 <img width='800' src='./images/img_0-15.png'/><br><br>
 Déploiement du nouveau "session host" avec une nouvelle image (ressource avec un TIMESTAMP)
 <img width='800' src='./images/img_0-16.png'/><br><br>
+Test terminé avec la nouvelle version du premier "session host"
+<img width='800' src='./images/img_0-17.png'/><br><br>
 
 
 
