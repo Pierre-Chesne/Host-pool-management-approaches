@@ -39,6 +39,7 @@ Les prérequis pour déployer cette nouvelle fonctionnalité:<br>
 - Uniquement des systèmes d'exploitation Windows 10/11 en Gen 2
 - KeyVault pour stocker les login et mot de passe (compte pour mettre les machines session host dans le domaine ainsi compte admin local session host). Ainsi il faudra autoriser le déploiement de « template ARM » au niveau du KeyVault
 - Valider la stratégie "Domain controller: Allow computer account re-use during domain join"
+- Pour les environnement ADDS locaux, ajouter les permissions 
 - Rôles:
     - "Desktop Virtualization Virtual Machine Contributor" pour le principal de service AVD
     - "KeyVault secret user" pour le principal de service AVD
@@ -93,7 +94,15 @@ Une fois que le processus de mise à jour est lancé.<br><br>
 - Le nouveau "session host" est joint au domaine à l'aide de l'extension 
 - Il hérite des propriétés de l'ancien compte machine de l'AD (GPO à activer "") et rompt la relation de confiance existante avec les VM précédentes
 - Le nouvel "session host" est joint au pool d'hôtes existant, le mode "drain" est désactivé et le "session host" peux accepter des connexions
-- Une fois testé il met à jour les autres "session host" par lots 
+- Une fois testé il met à jour les autres "session host" par lots
+<br><br>
+Déclenchement de la mise à jour des "session host".<br>
+Test du premier "session host" - Drain mode "on"<br>
+<img width='800' src='./images/img_0-15.png'/><br><br>
+Déploiement du nouveau "session host" avec une nouvelle image (ressource avec un TIMESTAMP)
+<img width='800' src='./images/img_0-16.png'/><br><br>
+
+
 
 
 
