@@ -82,7 +82,17 @@ Ensuite on selectionne la nouvelle image, éventuellement un nouveau gabarit de 
 On définit un horaire pour le déclenchement pour la mise à jour des "session host"<br><br>
 <img width='800' src='./images/img_0-12.png'/><br><br>
 Et pour finir, la notification pour les utilisateurs et ainsi le temp quand ils ont pour sauvegarder leur travail quand ils se feront déconnecter du "session host" pour sa mise à jour.<br><br>
-<img width='800' src='./images/img_0-14.png'/><br>
+<img width='800' src='./images/img_0-14.png'/><br><br>
+
+Une fois que le processus de mise à jour est lancé.<br><br>
+- Le service prend un "session host" pour les tests et il positionne le "drain on" dessus (plus de connexion dessus)
+- les utilisateurs connectés sur le "session host" sont notififiés et déconnectés
+- Le "session host" est supprimé dans Azure mais le **compte ordinateur dans l'AD n'est pas supprimé**
+- Il crée les nouvelles ressources Azure en NOM DE LA RESSOURCE-TIMESTAMP (ex: VM1-0-2023-04-15T17-16-07)
+- Le nouveau "session host" est joint au domaine à l'aide de l'extension 
+- Il hérite des propriétés de l'ancien compte machine de l'AD (GPO à activer "") et rompt la relation de confiance existante avec les VM précédentes
+- Le nouvel "session host" est joint au pool d'hôtes existant, le mode "drain" est désactivé et le "session host" peux accepter des connexions
+- Une fois testé il met à jour les "session host" par lots 
 
 
 
