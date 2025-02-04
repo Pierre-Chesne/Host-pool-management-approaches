@@ -103,7 +103,11 @@ Déploiement du nouveau "session host" avec une nouvelle image (ressource avec u
 <img width='800' src='./images/img_0-16.png'/><br><br>
 Test terminé avec la nouvelle version du premier "session host"
 <img width='800' src='./images/img_0-17.png'/><br><br>
-
+Orchestration de la mise à jour des autres "session host"
+<img width='800' src='./images/img_0-18.png'/><br>
+<img width='800' src='./images/img_0-19.png'/><br>
+<img width='800' src='./images/img_0-20.png'/><br>
+<img width='800' src='./images/img_0-21.png'/><br>
 
 
 
