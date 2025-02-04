@@ -107,9 +107,11 @@ Orchestration de la mise à jour des autres "session host"
 <img width='800' src='./images/img_0-18.png'/><br>
 <img width='800' src='./images/img_0-19.png'/><br>
 <img width='800' src='./images/img_0-20.png'/><br>
-<img width='800' src='./images/img_0-21.png'/><br>
+<img width='800' src='./images/img_0-21.png'/><br><br><br>
 
 
+Pour examiner ce sujet un peu plus en profondeur:
+https://www.youtube.com/watch?v=MCuPJdr3Zb4
 
 
 
