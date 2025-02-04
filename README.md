@@ -38,8 +38,8 @@ Les prérequis pour déployer cette nouvelle fonctionnalité:<br>
 - Active Directory avec Entra Domain Services ou domaine ADDS et des permissions spécifiques sur l’OU ( des "Session host)" dans le cas ADDS
 - Uniquement des systèmes d'exploitation Windows 10/11 en Gen 2
 - KeyVault pour stocker les login et mot de passe (compte pour mettre les machines session host dans le domaine ainsi compte admin local session host). Ainsi il faudra autoriser le déploiement de « template ARM » au niveau du KeyVault
-- Valider la stratégie "Domain controller: Allow computer account re-use during domain join"
-- Pour les environnement ADDS locaux, ajouter les permissions 
+- Valider la stratégie "Domain controller: Allow computer account re-use during domain join" (https://learn.microsoft.com/en-us/azure/virtual-desktop/session-host-update-configure?tabs=portal)
+- Pour les environnement ADDS locaux, ajouter les permissions au niveau de l'OU (Session host) (https://learn.microsoft.com/en-us/azure/virtual-desktop/session-host-update-configure?tabs=portal)
 - Rôles:
     - "Desktop Virtualization Virtual Machine Contributor" pour le principal de service AVD
     - "KeyVault secret user" pour le principal de service AVD
@@ -111,7 +111,8 @@ Orchestration de la mise à jour des autres "session host"
 
 
 Pour examiner ce sujet un peu plus en profondeur:<br>
-https://www.youtube.com/watch?v=MCuPJdr3Zb4
+Une excellente vidéo :-): https://www.youtube.com/watch?v=MCuPJdr3Zb4 <br>
+https://learn.microsoft.com/en-us/azure/virtual-desktop/host-pool-management-approaches#session-host-configuration <br>
 
 
 
