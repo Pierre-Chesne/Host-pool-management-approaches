@@ -38,6 +38,7 @@ Les prérequis pour déployer cette nouvelle fonctionnalité:<br>
 - Active Directory avec Entra Domain Services ou domaine ADDS et des permissions spécifiques sur l’OU ( des "Session host)" dans le cas ADDS
 - Uniquement des systèmes d'exploitation Windows 10/11 en Gen 2
 - KeyVault pour stocker les login et mot de passe (compte pour mettre les machines session host dans le domaine ainsi compte admin local session host). Ainsi il faudra autoriser le déploiement de « template ARM » au niveau du KeyVault
+- Valider la stratégie "Domain controller: Allow computer account re-use during domain join"
 - Rôles:
     - "Desktop Virtualization Virtual Machine Contributor" pour le principal de service AVD
     - "KeyVault secret user" pour le principal de service AVD
