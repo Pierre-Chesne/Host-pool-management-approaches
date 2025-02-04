@@ -110,7 +110,7 @@ Orchestration de la mise à jour des autres "session host"
 <img width='800' src='./images/img_0-21.png'/><br><br><br>
 
 
-Pour examiner ce sujet un peu plus en profondeur:
+Pour examiner ce sujet un peu plus en profondeur:<br>
 https://www.youtube.com/watch?v=MCuPJdr3Zb4
 
 
