@@ -111,7 +111,7 @@ Orchestration de la mise à jour des autres "session host"
 
 
 Pour examiner ce sujet un peu plus en profondeur:<br>
-Une excellente vidéo :-): <br>
+Une excellente vidéo :-):
 https://www.youtube.com/watch?v=MCuPJdr3Zb4 <br>
 https://learn.microsoft.com/en-us/azure/virtual-desktop/host-pool-management-approaches#session-host-configuration <br>
 
