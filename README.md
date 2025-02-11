@@ -33,7 +33,7 @@ C'est souvent cette option qui est recommandée et utilisée pour les environnem
 
 
 ## Nouveauté "Host pool management approaches"
-Microsoft propose maintenant une nouvelle fonctionnalité dans **"Azure Virtual Desktop"** pour le déploiement des "Host pool" et surtout pour **la gestion du cycle de vie des **Session host**.<br> 
+Microsoft propose maintenant une nouvelle fonctionnalité dans **"Azure Virtual Desktop"** pour le déploiement des "Host pool" et surtout pour la gestion du cycle de vie des **Session host.<br> 
 **Cette nouvelle fonctionnalité **"Host pool management approaches"** est encore en **preview** et ne fonctionne uniquement dans un environnement **"Domaine Active Directory ou Microsoft Entra Domain Services"**. Egalement, **elle n'est supporté qu'en mode "Pooled" pour "Host pool"**.<br><br>
 Les prérequis pour déployer cette nouvelle fonctionnalité:<br>
 - Active Directory avec Entra Domain Services ou domaine ADDS et des permissions spécifiques sur l’OU ( des "Session host)" dans le cas ADDS
